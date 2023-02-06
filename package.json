@@ -1,0 +1,21 @@
+{
+  "name": "steamredesign",
+  "version": "1.0.0",
+  "description": "Este es un proyecto de rediseño de la página web de Steam.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikegdro/SteamRedesign.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mikegdro/SteamRedesign/issues"
+  },
+  "homepage": "https://github.com/Mikegdro/SteamRedesign#readme"
+}

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+        <link href="./css/reset.css" rel="stylesheet" type="text/css">
+        <link href="./css/general.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <title>Steam</title>
+    </head>
+    <body>
+        <!-- <div class="scrollTracker"></div> -->
+
+        <!-- Navegador superior con el logo y el collapse -->
+        <section id="nav" class="clearfix">
+            <a class="logo" href="#hero">
+                
+            </a>
+            <nav>
+                <div class="collapsible">
+                    <div class="menuButton">
+                        <div class="menuButtonBurger"></div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <!-- Menú oculto flotante de la página -->
+        <div class="hiddenMenu reescaladoPortrait">
+            <ul class="nav o s">
+                <div class="wrapperSearch">
+                    <input type="text" placeholder="buscar">
+                    <span class="spanLupa"><a href="#" class="bi bi-search lupa"></a></span>
+                </div>
+                
+                <li><a class="link active" href="#">Tu tienda</a></li>
+                <li><a href="#">Nuevo y destacado</a></li>
+                <li><a href="#">Categorías</a></li>
+                <li><a href="#">Tienda de puntos</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Laboratorios</a></li>
+            </ul>
+            <div class="navFooter">
+                <div class="opciones">
+                    <span><a href="#">Cambiar idioma</a></span>
+                    <span><a href="#">Soporte</a></span>
+                </div>
+                <div class="infoFooter">
+                    <div class="valve">
+
+                    </div>
+                    <div class="politicas">
+                        <span><a href="#">Política de Privacidad</a></span> | 
+                        <span><a href="#">Información Legal</a></span> |
+                        <span><a href="#">Acuerdo de suscriptor a Steam</a></span> |
+                        <span><a href="#">Reembolsos</a></span> 
+                    </div>
+                    <div class="copy">
+                        <p>© Valve Corporation · Todos los Derechos reservados </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hero -->
+        <section id="hero" class="hero reescaladoPortrait">
+            <div class="overlayHero">
+
+            </div>
+
+            <div id="table">
+                <div id="centeralign" >
+                  <h1 class="titulo">Rebajas de Invierno</h1>
+                  <p class="subtitulo">
+                    22 DIC - 5 ENE a las 19:00 (Hora peninsular)
+                  </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rebajas -->
+        <section class="rebajas">
+            <h1 class="tituloRebajas">Más Vendidos</h1>
+            <div class="heroSwiper swiper mySwiper scrollAnimation left">
+                <div class="swiper-wrapper">
+                    <div class="slide1 swiper-slide hover">
+                        <div class="precio">
+                            <div class="descuento">
+                                -50%
+                            </div>
+                            <div class="precioTachado">
+                                39,99€
+                            </div>
+                            <div class="precioDescuento">
+                                19,99€
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide2 swiper-slide hover">
+                        <div class="precio">
+                            <div class="descuento">
+                                -80%
+                            </div>
+                            <div class="precioTachado">
+                                29,99€
+                            </div>
+                            <div class="precioDescuento">
+                                5,99€
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide3 swiper-slide hover">
+                        <div class="precio">
+                            <div class="descuento">
+                                -33%
+                            </div>
+                            <div class="precioTachado">
+                                39,99€
+                            </div>
+                            <div class="precioDescuento">
+                                26,79€
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide4 swiper-slide hover">
+                        <div class="precio">
+                            <div class="descuento">
+                                -67%
+                            </div>
+                            <div class="precioTachado">
+                                59,99€
+                            </div>
+                            <div class="precioDescuento">
+                                19,79€
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide5 swiper-slide hover">
+                        <div class="precio">
+                            <div class="descuento">
+                                -70%
+                            </div>
+                            <div class="precioTachado">
+                                27,99€
+                            </div>
+                            <div class="precioDescuento">
+                                8,39€
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+        </section>
+        <br/>
+
+        <!-- Browse -->
+        <h1 class="tituloRebajas separator">
+            Lo Mejor de 2022
+        </h1>
+        <section id="browse" class="scrollAnimation right">
+            <a class="browse-option" target="_blank">
+                <div class="browse-option-background"></div>
+                <i class="bi bi-controller"></i>
+                <span class="label">Accesorios</span>
+            </a>
+            <button class="browse-option" type="button">
+                <div class="browse-option-background"></div>
+                <i class="bi bi-tags"></i>
+                <span class="label">Categorías</span>
+            </button>
+            <button class="browse-option" type="button">
+                <div class="browse-option-background"></div>
+                <i class="bi bi-percent"></i>
+                <span class="label">Especiales</span>
+            </button>
+            <button class="browse-option" type="button">
+                <div class="browse-option-background"></div>
+                <i class="bi bi-lightning"></i>
+                <span class="label">Free to Play</span>
+            </button>
+        </section>
+
+
+        <section class="gallery">
+
+            <div id="list" class="no-scrollbar scrollAnimation left" data-active-index="0">
+                <div class="list-options">
+                    <button class="list-option" type="button" data-index="0">
+                    New
+                    </button>
+                    <button class="list-option" type="button" data-index="1">
+                    Trending
+                    </button>
+                    <button class="list-option" type="button" data-index="2">
+                    Top
+                    </button>
+                    <button class="list-option" type="button" data-index="3">
+                    Upcoming
+                    </button>
+                </div>
+            </div>
+
+            <div class="gamesGrid scrollAnimation right">
+                <div class="diapositiva new1 hover">
+                    <div class="precio">
+                        <div class="descuento">
+                            59,99€                    
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="diapositiva new2 hover">
+                    <div class="precio">
+                        <div class="descuento">
+                            59,99€ 
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="diapositiva new3 hover">
+                    <div class="precio">
+                        <div class="descuento">
+                            -70%
+                        </div>
+                        <div class="precioTachado">
+                            9€
+                        </div>
+                        <div class="precioDescuento">
+                            29,99€
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="diapositiva new4 hover">
+                    <div class="precio">
+                        <div class="descuento ftp">
+                            Free To Play
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="diapositiva new5 hover">
+                    <div class="precio">
+                        <div class="descuento">
+                            90% 
+                        </div>
+                        <div class="precioTachado">
+                            59,99€
+                        </div>
+                        <div class="precioDescuento">
+                            5,99€
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="diapositiva new6 hover">
+                    <div class="precio">
+                        <div class="descuento ftp">
+                            Free To Play
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="diapositiva new7 hover">
+                    <div class="precio">
+                        <div class="descuento">
+                            19,99€ 
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="diapositiva new8 hover">
+                    <div class="precio">
+                        <div class="descuento">
+                            9,99€ 
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+        
+        <!-- Franquicias -->
+        <section class="swiper separator franquicias scrollAnimation left">
+            <h1 class="tituloRebajas">
+                Franquicias Destacadas
+            </h1>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide franquicia franquicia1 hover">
+                    <div class="overlaySlide"></div>
+                    <img src="./src/civilization-vi-seeklogo.com.svg"></img>
+                </div>
+
+                <div class="swiper-slide franquicia franquicia2 hover">
+                    <div class="overlaySlide"></div>
+                    <img src="./src/Far_Cry_logo.svg"></img>
+                </div>
+
+                <div class="swiper-slide franquicia franquicia3 hover">
+                    <div class="overlaySlide"></div>
+                    <img src="./src/PlayStation_logo.svg"></img>
+                </div>
+              
+            </div>
+            <div class="swiper-pagination pagFranquicias"></div>
+        </section>
+
+        <!-- Categorías -->
+        <section class="categoriasDestacadas separator">
+            <h1 class="tituloRebajas">
+                Categorías Destacadas
+            </h1>
+            <div class="gamesGrid scrollAnimation right">
+                <div class="diapositiva survival hover">
+                    <div class="overlayCategory blue">
+                        <h1>Survival</h1>
+                    </div>
+                </div>
+    
+                <div class="diapositiva free hover">
+                    <div class="overlayCategory red">
+                        <h1>Free To Play</h1>
+                    </div>
+                </div>
+    
+                <div class="diapositiva horror hover">
+                    <div class="overlayCategory orange">
+                        <h1>Horror</h1>
+                    </div>
+                </div>
+    
+                <div class="diapositiva rogue hover">
+                    <div class="overlayCategory purple">
+                        <h1>Roguelike</h1>
+                    </div>
+                </div>
+    
+                <div class="diapositiva rpg hover">
+                    <div class="overlayCategory black">
+                        <h1>RPG</h1>
+                    </div>
+                </div>
+    
+                <div class="diapositiva deportes hover">
+                    <div class="overlayCategory green">
+                        <h1>Deportes</h1>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="wrapButton">
+                <button class="masCategorias">
+                    Explorar más categorías
+                </button>
+            </div>
+            
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter separator">
+            <h1 class="tituloRebajas"> Suscribe to our Newsletter</h1>
+            <div class="form">
+                <input type="text" placeholder="Enter your email">
+                <button>Send</button>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section class="footer">
+            <div class="info">
+                <a href="#hero">
+                    <img class="logoFooter">
+                </a>
+                <div class="socials">
+                    <li>
+                        <a href="" class="bi bi-instagram">
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="bi bi-facebook">
+                        
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="" class="bi bi-twitter">
+                        
+                        </a>
+                    </li>
+                </div>
+            </div>
+            <div class="community listaFooter">
+                <p>Community</p>
+                <ul>
+                    <li><a href="">Friends</a></li>
+                    <li><a href="">Forums</a></li>
+                    <li><a href="">Workshop</a></li>
+                    <li><a href="">Reviews</a></li>
+                    <li><a href="">Events</a></li>
+                </ul>
+            </div>
+            <div class="legal listaFooter">
+                <p>Legal</p>
+                <ul>
+                    <li><a href="">Community Policy</a></li>
+                    <li><a href="">Shop Policy</a></li>
+                    <li><a href="">Forums Policy</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Maturity Policy</a></li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section class="copyFooter">
+            <p>© Valve Corporation · Todos los Derechos reservados</p>
+        </section>
+    </body>
+
+    <!-- <link rel="stylesheet" href="./css/infinite.scss">
+    <script src="./js/infinite.js" type="module"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/home.js"></script>
+    <script src="./js/general.js" defer></script>
+</html>

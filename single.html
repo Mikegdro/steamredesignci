@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        />
+        <link rel="stylesheet" href="./css/general.css" />
+        <link rel="stylesheet" href="./css/reset.css" />
+        <title>Single</title>
+
+        <style>
+            html,
+            body {
+                position: relative;
+                height: 100%;
+            }
+
+            body {
+                background: #eee;
+                font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+                font-size: 14px;
+                color: #000;
+                margin: 0;
+                padding: 0;
+            }
+
+            .swiper {
+                width: 100%;
+                height: 100%;
+            }
+
+            .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+
+                /* Center slide text vertically */
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+            }
+
+            .swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            body {
+                background: #000;
+                color: #000;
+            }
+
+            .swiper {
+                width: 100%;
+                height: 300px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .swiper-slide {
+                background-size: cover;
+                background-position: center;
+            }
+
+            .mySwiper2 {
+                height: 80%;
+                width: 100%;
+            }
+
+            .mySwiper {
+                height: 20%;
+                box-sizing: border-box;
+                padding: 10px 0;
+            }
+
+            .mySwiper .swiper-slide {
+                width: 25%;
+                height: 100%;
+                opacity: 0.4;
+            }
+
+            .mySwiper .swiper-slide-thumb-active {
+                opacity: 1;
+            }
+
+            .swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- Navegador superior con el logo y el collapse -->
+        <section id="nav" class="clearfix">
+            <a class="logo" href="#hero"> </a>
+            <nav>
+                <div class="collapsible">
+                    <div class="menuButton">
+                        <div class="menuButtonBurger"></div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <!-- Menú oculto flotante de la página -->
+        <div class="hiddenMenu reescaladoPortrait">
+            <ul class="nav o s">
+                <div class="wrapperSearch">
+                    <input type="text" placeholder="buscar" />
+                    <span class="spanLupa"
+                        ><a href="#" class="bi bi-search lupa"></a
+                    ></span>
+                </div>
+
+                <li><a class="link active" href="#">Tu tienda</a></li>
+                <li><a href="#">Nuevo y destacado</a></li>
+                <li><a href="#">Categorías</a></li>
+                <li><a href="#">Tienda de puntos</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Laboratorios</a></li>
+            </ul>
+            <div class="navFooter">
+                <div class="opciones">
+                    <span><a href="#">Cambiar idioma</a></span>
+                    <span><a href="#">Soporte</a></span>
+                </div>
+                <div class="infoFooter">
+                    <div class="valve"></div>
+                    <div class="politicas">
+                        <span><a href="#">Política de Privacidad</a></span> |
+                        <span><a href="#">Información Legal</a></span> |
+                        <span
+                            ><a href="#">Acuerdo de suscriptor a Steam</a></span
+                        >
+                        |
+                        <span><a href="#">Reembolsos</a></span>
+                    </div>
+                    <div class="copy">
+                        <p>
+                            © Valve Corporation · Todos los Derechos reservados
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="heroSingle">
+            <div class="overlayHero"></div>
+            <div class="container">
+                <div class="breadcrum">
+                    <a href="">Todos los juegos</a> > <a href="">Acción</a> >
+                    <a href="">Franquicia Red Dead Redemption</a> >
+                    <span class="actual">Read Dead Redemption® II</span>
+                </div>
+                <br />
+                <h1 class="gameTitle">Red Dead Redemption® II</h1>
+                <div class="gameContainer">
+                    <div class="gallery">
+                        <div
+                            style="
+                                --swiper-navigation-color: #fff;
+                                --swiper-pagination-color: #fff;
+                            "
+                            class="swiper mySwiper2"
+                        >
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide d d1"></div>
+
+                                <div class="swiper-slide d d2"></div>
+
+                                <div class="swiper-slide d d3"></div>
+
+                                <div class="swiper-slide d d4"></div>
+
+                                <div class="swiper-slide d d5"></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                        <div thumbsSlider="" class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide d d1"></div>
+
+                                <div class="swiper-slide d d2"></div>
+
+                                <div class="swiper-slide d d3"></div>
+
+                                <div class="swiper-slide d d4"></div>
+
+                                <div class="swiper-slide d d5"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gameInfo">
+                        <div class="header"></div>
+                        <div class="info">
+                            <p>Steam</p>
+                            <p>Con Stock</p>
+                            <p>Descarga Digital</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="descripcion">
+                    <div class="about">
+                        <div class="bio">
+                            <p>
+                                Winner of over 175 Game of the Year Awards and
+                                recipient of over 250 perfect scores, RDR2 is
+                                the epic tale of outlaw Arthur Morgan and the
+                                infamous Van der Linde gang, on the run across
+                                America at the dawn of the modern age. Also
+                                includes access to the shared living world of
+                                Red Dead Online.
+                            </p>
+                        </div>
+
+                        <br />
+                    </div>
+
+                    <div class="reviews">
+                        <p>
+                            Reseñas Recientes:
+                            <span class="remarcado">Muy Positivas</span> -
+                            19,492
+                        </p>
+
+                        <br />
+
+                        <p>
+                            Reseñas Generales:
+                            <span class="remarcado">Muy Positivas</span> -
+                            322.500
+                        </p>
+
+                        <br />
+
+                        <h4>
+                            Fecha de lanzamiento:
+                            <span class="grey">5 DIC 2019</span>
+                        </h4>
+
+                        <br />
+
+                        <p>
+                            Desarrollador:
+                            <span class="remarcado">Rockstar Games</span>
+                        </p>
+
+                        <br />
+
+                        <p>
+                            Editor:
+                            <span class="remarcado">Rockstar Games</span>
+                        </p>
+
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/general.js" defer></script>
+    <script src="./js/single.js" defer></script>
+</html>
